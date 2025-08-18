@@ -70,47 +70,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_banner">
-                <div>
-                  <img src={sdcampus} alt="" />
-                </div>
-              </div>
-              <div className="project_info">
-                <h2>SD Campus</h2>
-                <p>
-                  Designed and developed pre-login & after-login website pages
-                  for a learning platform using React.js ensuring a fully
-                  responsive and user-friendly interface across devices. Created
-                  an intuitive UI for students to join online classes and engage
-                  in one-on-one conversations with instructors.
-                </p>
-                <div>
-                  <FaReact title="React" />
-                  <SiRedux title="Redux" />
-                  <SiMui title="Material UI" />
-                  <SiReactrouter title="React Router" />
-                </div>
-                <div>
-                  <a
-                    href="https://www.sdcampus.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See Demo
-                    </span>
-                  </a>
-                  <a href="" rel="noreferrer">
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
@@ -120,7 +79,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="project_info">
-                <h2>T-Movies</h2>
+                <h2>Movionix</h2>
                 <p>
                   A TV Shows & Movies web app where you see the all Trending,
                   Popular, Top Rated TV shows & Movies. See full information
@@ -136,7 +95,7 @@ const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://t-movies-react.netlify.app/"
+                    href="https://movionix.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >

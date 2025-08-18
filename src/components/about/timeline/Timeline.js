@@ -33,7 +33,7 @@ const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Jan 2024 - Present"}
+            date={"Feb 2025 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "1px solid var(--clr-primary)",
@@ -52,7 +52,38 @@ const Timeline = () => {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Front-End Developer (Full Time)
+              Front-End Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              FictiveBox Digital
+            </h4>
+            <p>
+              A React Front-End Developer for full time in Fictivebox (On Site)
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"Jan 2024 - Jan 2025"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "1px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Front-End Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">SD Campus</h4>
             <p>
@@ -60,38 +91,7 @@ const Timeline = () => {
               SD Campus (Noida)
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"June 2023 - Dec 2023"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "1px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Front-End Developer (Intern)
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              SleekSites & Trando
-            </h4>
-            <p>
-              Done two Internships in 7 months in two compaines{" "}
-              <span className="different">SleekSites</span> and
-              <span className="different"> Trando</span>
-            </p>
-          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"Feb 2023 - June -2023"}
